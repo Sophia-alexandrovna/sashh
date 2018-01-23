@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load urlify %}
+
+{% block head_title %}
+{{ object.title }} | {{ block.super }}
+{% endblock head_title %}
+
+
+{% block content %}
+<div class="col-md-14">
+<div class='row'>
+    {% if instance.image %}
+    <img src='{{ instance.image.url }}' class="img-fluid"/>
+    {% endif %}
+<h1>{{ instance.title }} <small>{% if instance.draft %}<span style='color: #FF0000;'>Draft </span> {% endif %}
+
+{{ instance.publish }}</small></h1>
+
+
+
+<a style ="color:#FF4500" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">
+Share on Facebook |
+</a>
+<a href="https://twitter.com/home?status={{ object.content|truncatechars:80|urlify }}%20{{ request.build_absolute_uri }}">
+Share on Twitter
+</a>
+</div>
+</main>
+
+
+
+
+
+<div class='col-sm-12'>
+
+{{ instance.content|linebreaks }}
+
+<hr/>
+<br/>
+
+
+</div>
+</div>
+
+
+{% endblock content %}

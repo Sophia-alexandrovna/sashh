@@ -1,0 +1,232 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"img"
+			],
+			[
+				"po",
+				"post_id"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"co",
+				"context1"
+			],
+			[
+				"c",
+				"context"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"sr",
+				"script\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Asus/Desktop/sashh"
+	],
+	"file_history":
+	[
+		"/C/Users/Asus/prjctpy!!/mysite/settings.py",
+		"/C/Users/Asus/prjctpy!!/blog/templates/admin/base_site.html",
+		"/C/Users/Asus/prjctpy!!/blog/models.py",
+		"/C/Users/Asus/prjctpy!!/blog/admin.py",
+		"/C/Users/Asus/prjctpy!!/.gitignore",
+		"/C/Users/Asus/prjctpy!!/mysite/urls.py",
+		"/C/Users/Asus/prjctpy!!/blog/urls.py",
+		"/C/Users/Asus/prjctpy!!/blog/templates/blog/detail.html",
+		"/C/Users/Asus/prjctpy!!/blog/views.py",
+		"/C/Users/Asus/prjctpy!!/blog/templates/blog/post_detail.html",
+		"/C/Users/Asus/prjctpy!!/blog/templates/blog/index.html",
+		"/C/Users/Asus/Desktop/final.html",
+		"/C/Users/Asus/Desktop/1.html",
+		"/C/Users/Asus/Desktop/projectpy!/ng.html",
+		"/C/Users/Asus/Desktop/projectpy!/cm.html",
+		"/C/Users/Asus/Desktop/projectpy!/index.html",
+		"/C/Users/Asus/Desktop/projectpy!/wew3.html",
+		"/C/Users/Asus/prjctpy!!/blog/templates/blog/post_list.html",
+		"/C/Users/Asus/prjctpy!!/myvenv/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html",
+		"/C/Users/Asus/Desktop/projectpy!/12.py",
+		"/C/Users/Asus/Desktop/projectpy!/pr.html",
+		"/C/Users/Asus/Desktop/projectpy!/vk.html",
+		"/C/Users/Asus/Desktop/lesnyablet/широков",
+		"/C/Users/Asus/Desktop/projectpy!/12",
+		"/C/Users/Asus/Desktop/ll",
+		"/C/Users/Asus/Desktop/withanimatere.html",
+		"/C/Users/Asus/Desktop/svg.html",
+		"/D/Sublime Text 3/чужой сайт.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sashh.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
