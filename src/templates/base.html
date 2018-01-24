@@ -8,6 +8,12 @@
 
 <title>{% block head_title %}Sasha's blog{% endblock head_title %}</title>
 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+ 
 <!-- Bootstrap core CSS -->
 <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
 
@@ -25,26 +31,23 @@
 
 
 <body>
-{% block navbar %}
-
- <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <a class="navbar-brand" href="#">Alexandra Patrina</a>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark mb-4 ">
+	<a class="navbar-brand row justify-content-start" href="#"><h3>Alexandra Patrina</h3></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="blank" href="https://vk.com/wolfsherri">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-{% endblock navbar %}
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#"><h2>Home</h2></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" target="blank" href="https://vk.com/wolfsherri"><h2>Contact</h2></a>
+    </li>
+  </ul>
+
+</nav>
 
 {% include "messages_display.html" %}
 <div class='container'>
