@@ -25,7 +25,7 @@ SECRET_KEY = '$@soczlkwy=6$t6h9k+#lt#i^gd=bs5n5%*qa^d7!pknq=wvmj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fsash.pythonanywhere.com']
 
 
 # Application definition
